@@ -18,13 +18,13 @@ app.use(express.json()); //to accept json data
 
 // --------------------------- to access CORS----------------------//
 
-// app.use(
-//   cors({
-//     origin: "*",
-//     methods: ["GET", "POST", "PUT", "DELETE"],
-//     credentials: true,
-//   })
-// );
+app.use(
+  cors({
+    origin: "*",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 // --------------------------- to access CORS----------------------//
 
